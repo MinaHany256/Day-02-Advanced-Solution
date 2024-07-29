@@ -1,7 +1,26 @@
-﻿namespace Assignment_Collection
+﻿using System.Collections;
+
+namespace Assignment_Collection
 {
     internal class Program
     {
+        #region 3.Given a Queue, implement a function to reverse the elements of a queue using a stack.
+        //public static Queue<int> ReverseQueue(Queue<int> queue)
+        //{
+        //    Stack<int> result = new Stack<int>();
+
+        //    for (int i = 0; i < queue.Count; i++)
+        //        result.Push(queue.Dequeue());
+
+        //    for (int i = 0; i <= result.Count; i++)
+        //        queue.Enqueue(result.Pop());
+
+        //    return queue;
+
+        //} 
+        #endregion
+
+
         static void Main(string[] args)
         {
             #region 1.Given an array  consists of  numbers with size N and number of queries, in each query you will be given an integer X, and you should print how many numbers in array that is greater than  X.
@@ -70,6 +89,18 @@
 
             #endregion
 
+            #region 3.Given a Queue, implement a function to reverse the elements of a queue using a stack.
+
+            //Queue<int> queue = new Queue<int>();
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //queue = ReverseQueue(queue);
+
+            //foreach (int i in queue)
+            //    Console.WriteLine(i);
+
+            #endregion
 
 
         }
