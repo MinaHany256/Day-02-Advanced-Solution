@@ -4,7 +4,42 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region 1.Given an array  consists of  numbers with size N and number of queries, in each query you will be given an integer X, and you should print how many numbers in array that is greater than  X.
+
+            //Console.Write("Please Enter Size of The Array : ");
+            //int.TryParse(Console.ReadLine(), out int ArrSize);
+
+            //Console.Write("Please Enter Number of Queries : ");
+            //int.TryParse(Console.ReadLine(), out int NoOfQueries);
+
+            
+            //List<int> list = new List<int>(ArrSize);
+
+            //Console.Write("Please Enter The Array : ");
+            //for (int i = 0; i < NoOfQueries; i++)
+            //     list.Add(int.Parse(Console.ReadLine() ?? "0"));
+     
+
+            //int Counter = 0;
+
+
+            //for (int i = 0; i < NoOfQueries; i++)
+            //{
+            //    int.TryParse(Console.ReadLine(),out int Query);
+            //    for (int j = 0; j < list.Count; j++)
+            //    {
+            //        if (Query < list[j])
+            //            Counter++;
+            //    }
+
+            //    Console.WriteLine($"{Counter} Numbers in the List Greater Than {Query}");
+            //    Counter = 0;
+            //}
+
+            #endregion
+
+
+
         }
     }
 }
