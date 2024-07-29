@@ -54,6 +54,9 @@ namespace Demo_Collection
 
             //Console.WriteLine($"Count = {Numbers.Count} , Capacity = {Numbers.Capacity}");
 
+            //ArrayList Numbers = new ArrayList(5);
+
+            //Numbers.Add(1);  // Boxing, Casting From int[ValueType] to Object[ReferenceType]
 
             #endregion
         }
