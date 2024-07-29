@@ -50,6 +50,22 @@ namespace Assignment_Collection
         //} 
         #endregion
 
+        #region 5.Given an array, implement a function to remove duplicate elements from an array.
+        //public static int[] RemoveDuplicated(int[] Arr)
+        //{
+        //    List<int> list = new List<int>();
+
+        //    foreach (int i in Arr)
+        //    {
+        //        if(!list.Contains(i))
+        //            list.Add(i);
+        //    }
+
+        //    return list.ToArray();
+        //} 
+        #endregion
+
+
 
         static void Main(string[] args)
         {
@@ -139,6 +155,17 @@ namespace Assignment_Collection
             //bool isBalanced = IsBalanced(input);
             //Console.WriteLine(isBalanced);
 
+
+            #endregion
+
+            #region 5.Given an array, implement a function to remove duplicate elements from an array.
+
+            //int[] Arr = [1, 2, 2, 3, 4, 4, 5];
+
+            //int[] ResultArr = RemoveDuplicated(Arr);
+
+            //foreach (int i in ResultArr)
+            //    Console.WriteLine(i);
 
             #endregion
 
