@@ -59,6 +59,48 @@ namespace Demo_Collection
             //Numbers.Add(1);  // Boxing, Casting From int[ValueType] to Object[ReferenceType]
 
             #endregion
+
+
+            #region Generic Collections - List
+
+            //List<int> Numbers = new List<int>();
+            //Console.WriteLine($"Count = {Numbers.Count} , Capacity = {Numbers.Capacity}");
+
+            //Numbers.Add( 1 );
+            //Numbers.AddRange([2, 3, 4]);
+            //Numbers.Add(5);
+            //Numbers.TrimExcess();
+            //Console.WriteLine($"Count = {Numbers.Count} , Capacity = {Numbers.Capacity}");
+
+
+            //List<int> Numbers = new List<int>(5) { 1, 2, 3, 4 };
+
+            //Numbers[0] = 100;  // Can use Indexer to Update
+            ////Numbers[4] = 5;    // Can't use Indexer to Add
+
+            //for (int i = 0; i < Numbers.Count; i++)
+            //{
+            //    Console.WriteLine(Numbers[i]); // Can use Indexer to Print
+            //}
+
+            //Console.WriteLine($"Count = {Numbers.Count} , Capacity = {Numbers.Capacity}");
+
+
+            //List<int> Numbers = new List<int>(5) { 1, 2, 3, 4, 5 };
+
+            //Numbers.EnsureCapacity(21);
+
+            //for (int i = 6; i <= 21; i++)
+            //{
+            //    Numbers.Add(i);
+            //}
+
+            //Console.WriteLine($"Count = {Numbers.Count} , Capacity = {Numbers.Capacity}");
+
+
+
+            #endregion
+
         }
     }
 }
