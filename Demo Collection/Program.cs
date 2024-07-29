@@ -60,7 +60,6 @@ namespace Demo_Collection
 
             #endregion
 
-
             #region Generic Collections - List
 
             //List<int> Numbers = new List<int>();
@@ -100,6 +99,117 @@ namespace Demo_Collection
 
 
             #endregion
+
+            #region Generic Collections - List (Methods)
+
+            #region Add, Insert, AsReadOnly
+            //List<int> Numbers = new List<int>(5) { 1, 3, 4, 5 };
+
+            //Numbers.Add(1);
+            //Numbers.AddRange([2, 3, 4]); 
+            //Numbers.Insert(0, 100);
+
+            //IReadOnlyList<int> readOnlyNumbers = Numbers.AsReadOnly(); 
+            #endregion
+
+            #region BinarySearch
+            //int index = Numbers.BinarySearch(2);
+
+            //Console.WriteLine(index);
+
+            //List<Employee> employees = new List<Employee>()
+            //{
+            //    new Employee (10, "Ahmed", 2_000),
+            //    new Employee (20, "Omar", 3_000),
+            //    new Employee (30, "Nadia", 8_000),
+            //};
+
+            //employees.Sort(new EmployeeComparer());
+
+            //int index = employees.BinarySearch(new Employee() { Salary = 8_000 });
+
+            //index = employees.BinarySearch(new Employee() { Name = "Omar" }, new EmployeeComparer());
+
+            //index = employees.BinarySearch(1, 2, new Employee() { Name = "Omar" }, new EmployeeComparer());
+
+            //Console.WriteLine($"Index = {index}"); 
+            #endregion
+
+            #region Clear
+
+            //List<int> Numbers = new List<int>(5) { 1, 3, 4, 5 };
+            //Numbers.Clear(); 
+            #endregion
+
+            #region ConvertAll
+            //List<int> Numbers = new List<int>(5) { 1, 3, 4, 5 };
+
+            //List<long> NewNumbers = Numbers.ConvertAll<long>(delegate (int N)
+            //{
+            //    N += 100;
+            //    return N;
+            //});
+
+            //List<long> NewNumbers = Numbers.ConvertAll<long>(
+            //    N => { N += 100; return N; });
+
+            //// To Return Only
+            //List<long> NewNumbers02 = Numbers.ConvertAll<long>(N => N);
+
+            //foreach (int i in NewNumbers)
+            //    Console.WriteLine(i); 
+            #endregion
+
+            #region CopyTo
+            //List<int> Numbers = new List<int>(5) { 1, 2, 3, 4, 5 };
+
+
+            //int[] Arr = new int[10];
+            //Numbers.CopyTo(Arr);
+            //Numbers.CopyTo(Arr,4);
+            //Numbers.CopyTo(2,Arr, 4,3);
+
+            //foreach (int i in Arr)
+            //    Console.WriteLine(i); 
+            #endregion
+
+            #region Find, FindAll, FindIndex, FindLast, FindLastIndex
+
+            //List<int> Numbers = new List<int>(5) { 1, 2, 3, 4, 5 };
+
+            //int EvenNumber = Numbers.Find((N) => N % 2 == 0);
+            //int EvenNumber01 = Numbers.FindLast((N) => N % 2 == 0);
+            //int[] EvenNumbers = Numbers.FindAll((N) => N % 2 == 0).ToArray();
+            //int index = Numbers.FindIndex(N => N % 2 == 0);
+
+
+            //Console.WriteLine($"Even Number = {EvenNumber01}");
+            //Console.WriteLine($"index = {index}"); 
+            #endregion
+
+            #region Exists, TrueForAll
+
+            //List<int> Numbers = new List<int>(5) { 1, 2, 3, 4, 5 };
+
+            //bool IsExist = Numbers.Exists(N => N%2 == 0);
+            //Console.WriteLine(IsExist);
+
+            //bool AllEven = Numbers.TrueForAll(N => N%2 == 0);
+            //Console.WriteLine(AllEven);
+
+            #endregion
+
+            #region IndexOf
+
+            //List<int> Numbers = new List<int>(5) { 1, 2, 3, 5, 5 };
+
+            //Console.WriteLine(Numbers.IndexOf(5));
+
+            #endregion
+
+            #endregion
+
+
 
         }
     }
