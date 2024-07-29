@@ -221,6 +221,25 @@ namespace Demo_Collection
             //Console.WriteLine(FirstNode.Next.Value);
             #endregion
 
+            #region Generic Collections - Stack
+
+            //Stack<int> stack = new Stack<int>();
+            //stack.Push(1);
+            //stack.Push(2);  
+            //stack.Push(3);
+
+
+            //Console.WriteLine(stack.Pop());  // 3
+            //Console.WriteLine(stack.Pop());  // 2
+            //Console.WriteLine(stack.Pop());  // 1
+            //Console.WriteLine(stack.TryPop(out int value));  // No Exception will be Thrown
+
+            //Console.WriteLine(stack.Peek());
+            //Console.WriteLine(stack.TryPeek(out int value));
+
+            #endregion
+
+
 
         }
     }
