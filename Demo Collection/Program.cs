@@ -239,7 +239,22 @@ namespace Demo_Collection
 
             #endregion
 
+            #region Generic Collections - Queue
 
+            //Queue<int> queue = new Queue<int>();
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+
+            //Console.WriteLine(queue.Dequeue());  // 1
+            //Console.WriteLine(queue.Dequeue());  // 2
+            //Console.WriteLine(queue.TryDequeue(out int value));  // 3
+            //Console.WriteLine(value);
+           
+            //foreach (int i in queue)
+            //    Console.WriteLine(i);   
+
+            #endregion
 
         }
     }
