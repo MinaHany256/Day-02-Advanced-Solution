@@ -20,6 +20,36 @@ namespace Assignment_Collection
         //} 
         #endregion
 
+        #region 4.Given a Stack, implement a function to check if a string of parentheses is balanced using a stack.
+        //public static bool IsBalanced(string input)
+        //{
+        //    Stack<char> stack = new Stack<char>();
+
+        //    foreach (char c in input)
+        //    {
+        //        if (c == '(' || c == '{' || c == '[')
+        //            stack.Push(c);
+
+        //        else if (c == ')' || c == '}' || c == ']')
+        //        {
+        //            if (stack.Count == 0)
+        //                return false;
+
+        //            char top = stack.Pop();
+
+        //            if (
+        //                   c == ')' && top != '('
+        //                || c == '}' && top != '{' 
+        //                || c == ']' && top != '['
+        //               )
+        //                return false;
+        //        }
+        //    }
+
+        //    return stack.Count == 0;
+        //} 
+        #endregion
+
 
         static void Main(string[] args)
         {
@@ -101,6 +131,17 @@ namespace Assignment_Collection
             //    Console.WriteLine(i);
 
             #endregion
+
+            #region 4.Given a Stack, implement a function to check if a string of parentheses is balanced using a stack.
+
+            //Console.Write("Enter a STring of parentheses: ");
+            //string input = Console.ReadLine() ?? "";
+            //bool isBalanced = IsBalanced(input);
+            //Console.WriteLine(isBalanced);
+
+
+            #endregion
+
 
 
         }
