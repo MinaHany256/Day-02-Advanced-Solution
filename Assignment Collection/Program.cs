@@ -12,13 +12,13 @@
             //Console.Write("Please Enter Number of Queries : ");
             //int.TryParse(Console.ReadLine(), out int NoOfQueries);
 
-            
+
             //List<int> list = new List<int>(ArrSize);
 
             //Console.Write("Please Enter The Array : ");
             //for (int i = 0; i < NoOfQueries; i++)
             //     list.Add(int.Parse(Console.ReadLine() ?? "0"));
-     
+
 
             //int Counter = 0;
 
@@ -35,6 +35,38 @@
             //    Console.WriteLine($"{Counter} Numbers in the List Greater Than {Query}");
             //    Counter = 0;
             //}
+
+            #endregion
+
+            #region 2.Given a number N and an array of N numbers. Determine if it's palindrome or not.
+
+            //Console.Write("Please Enter Size of The Array : ");
+            //int.TryParse(Console.ReadLine(), out int ArrSize);
+
+
+            //List<int> list = new List<int>(ArrSize);
+
+            //Console.WriteLine("Please Enter The Array : ");
+            //for (int i = 0; i < ArrSize; i++)
+            //    list.Add(int.Parse(Console.ReadLine() ?? "0"));
+
+
+            //bool flag = true;
+
+
+            //for (int i = 0; i < list.Count / 2; i++)
+            //{
+            //    if (list[i] != list[list.Count - i - 1])
+            //    {
+            //        flag = false;
+            //        break;
+            //    }
+            //}
+
+            //if (flag == true)
+            //    Console.WriteLine("is Plaindrome");
+            //else
+            //    Console.WriteLine("Not PlainDrome");
 
             #endregion
 
