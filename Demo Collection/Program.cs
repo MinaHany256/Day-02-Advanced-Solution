@@ -209,6 +209,17 @@ namespace Demo_Collection
 
             #endregion
 
+            #region Generic Collections - LinkedList
+
+            //LinkedList<int> Numbers = new LinkedList<int>();
+
+            //LinkedListNode<int> FirstNode = Numbers.AddFirst(1);
+            //LinkedListNode<int> ThirdNode = Numbers.AddLast(3);
+
+            //LinkedListNode<int> SecondNode = Numbers.AddAfter(FirstNode, 2);
+
+            //Console.WriteLine(FirstNode.Next.Value);
+            #endregion
 
 
         }
