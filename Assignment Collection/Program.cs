@@ -252,6 +252,32 @@ namespace Assignment_Collection
 
             #endregion
 
+            #region 9.Given two arrays, find their intersection. Each element in the result should appear as many times as it shows in both arrays.
+
+            //int[] Arr01 = [1, 2, 3, 4, 4];
+            //int[] Arr02 = [10, 4, 4];
+
+            //List<int> list = new List<int>();
+
+            //for (int i = 0; i < Arr01.Length; i++)
+            //{
+            //    for (int j = 0; j < Arr02.Length; j++)
+            //    {
+            //        if (Arr01[i] == Arr02[j])
+            //        {
+            //            list.Add(Arr01[i]);
+            //            Arr02[j] = int.MinValue; 
+            //            break;
+            //        }
+            //    }
+            //}
+
+            //foreach (int i in list)
+            //    Console.Write($" {i} ");
+
+            #endregion
+
+
         }
     }
 }
