@@ -117,7 +117,7 @@ namespace Assignment_Collection
         //public static ArrayList? FindContigousSubList(ArrayList list, int Target)
         //{
         //    int count = list.Count;
-            
+
         //    int Sum = 0;
 
         //    for (int i = 0; i < count; i++)
@@ -148,6 +148,28 @@ namespace Assignment_Collection
         //}
 
         #endregion
+
+        #region 11.Given a queue reverse first K elements of a queue, keeping the remaining elements in the same order 
+
+        //public static Queue<int> ReverseFirstKElementsInQueue(Queue<int> queue, int K)
+        //{
+        //    Stack<int> stack = new Stack<int>();
+
+        //    for (int i = 0; i < K; i++)
+        //        stack.Push(queue.Dequeue());
+
+        //    while (stack.Count > 0)
+        //        queue.Enqueue(stack.Pop());
+
+        //    int Remaining = queue.Count - K;
+        //    for (int i = 0; i < Remaining; i++)
+        //        queue.Enqueue(queue.Dequeue());
+
+        //    return queue;
+        //}
+
+        #endregion
+
 
         static void Main(string[] args)
         {
@@ -328,6 +350,19 @@ namespace Assignment_Collection
             //    Console.WriteLine("No contiguous");
 
             #endregion
+
+            #region 11.Given a queue reverse first K elements of a queue, keeping the remaining elements in the same order 
+
+            //Queue<int> queue = new Queue<int>([1, 2, 3, 4, 5]);
+
+            //Queue<int> ResultQueue =  ReverseFirstKElementsInQueue(queue,3);
+
+            //foreach (int i in ResultQueue)
+            //    Console.Write($" {i} ");
+            //Console.WriteLine();
+
+            #endregion
+
 
         }
     }
