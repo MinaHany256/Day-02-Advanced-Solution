@@ -195,7 +195,17 @@ namespace Assignment_Collection
 
             #endregion
 
+            #region 7.Implement a queue that can hold different data types. 
 
+            //Queue queue = new Queue();
+            //queue.Enqueue(1);
+            //queue.Enqueue("Apple");
+            //queue.Enqueue(5.28);
+
+            //foreach (var item in queue) 
+            //    Console.WriteLine(item);
+
+            #endregion
         }
     }
 }
