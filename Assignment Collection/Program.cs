@@ -81,6 +81,37 @@ namespace Assignment_Collection
 
         #endregion
 
+        #region 8.Create a function that pushes a series of integers onto a stack. Then, search for a target integer in the stack. If the target is found, print a message indicating that the target was found how many elements were checked before finding the target (“Target was found successfully and the count = 5”). If the target is not found, print a message indicating that the target was not found(“Target was not found”).
+
+        //public static Stack<int> PushNumbersInStack(int[] Numbers)
+        //{
+        //    Stack<int> stack = new Stack<int>();
+
+        //    foreach (int number in Numbers)
+        //        stack.Push(number);
+
+        //    return stack;
+        //}
+
+        //public static void SearchForNumbersInStack(Stack<int> stack, int Target)
+        //{
+        //    int Counter = 0;
+
+        //    foreach (int number in stack)
+        //    {
+        //        Counter++;
+        //        if (number == Target)
+        //        {
+        //            Console.WriteLine($"Target was found successfully and the count = {Counter}");
+        //            return;
+        //        }
+        //    }
+
+        //    Console.WriteLine($"Target was not found");
+        //}
+
+        #endregion
+
 
         static void Main(string[] args)
         {
@@ -206,6 +237,21 @@ namespace Assignment_Collection
             //    Console.WriteLine(item);
 
             #endregion
+
+            #region 8.Create a function that pushes a series of integers onto a stack. Then, search for a target integer in the stack. If the target is found, print a message indicating that the target was found how many elements were checked before finding the target (“Target was found successfully and the count = 5”). If the target is not found, print a message indicating that the target was not found(“Target was not found”).
+
+            //int[] Numbers = [1, 2, 3, 4, 5];
+
+            //Stack<int> stack = PushNumbersInStack(Numbers);
+
+            //Console.Write("Enter a Target To Search : ");
+            //int.TryParse(Console.ReadLine(), out int Target);
+
+            //SearchForNumbersInStack(stack, Target);
+
+
+            #endregion
+
         }
     }
 }
