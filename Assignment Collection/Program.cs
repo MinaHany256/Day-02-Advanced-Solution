@@ -112,6 +112,42 @@ namespace Assignment_Collection
 
         #endregion
 
+        #region 10.Given an ArrayList of integers and a target sum, find if there is a contiguous sub list that sums up to the target.
+
+        //public static ArrayList? FindContigousSubList(ArrayList list, int Target)
+        //{
+        //    int count = list.Count;
+            
+        //    int Sum = 0;
+
+        //    for (int i = 0; i < count; i++)
+        //    {
+        //        Sum = 0;
+
+        //        for (int j = i; j < count; j++)
+        //        {
+        //            Sum += (int)list[j];
+
+        //            if (Target == Sum)
+        //            {
+        //                ArrayList SubList = new ArrayList();
+        //                for (int k = i; k <= j; k++)
+        //                {
+        //                    SubList.Add((int)list[k]);
+        //                }
+
+        //                return SubList;
+        //            }
+        //        }
+
+        //    }
+
+        //    return null;
+
+
+        //}
+
+        #endregion
 
         static void Main(string[] args)
         {
@@ -277,6 +313,21 @@ namespace Assignment_Collection
 
             #endregion
 
+            #region 10.Given an ArrayList of integers and a target sum, find if there is a contiguous sub list that sums up to the target.
+
+            //ArrayList list = new ArrayList() { 1, 2, 3, 7, 5 };
+
+            //ArrayList? Result = FindContigousSubList (list, 12);
+
+            //if (Result != null)
+            //{
+            //    foreach (int i in Result)
+            //        Console.Write($" {i} ");
+            //}
+            //else
+            //    Console.WriteLine("No contiguous");
+
+            #endregion
 
         }
     }
