@@ -65,6 +65,21 @@ namespace Assignment_Collection
         //} 
         #endregion
 
+        #region 6.Given an array list , implement a function to remove all odd numbers from it
+
+        //public static ArrayList RemoveOddNumbers(ArrayList list)
+        //{
+        //    ArrayList result = new ArrayList();
+
+        //    foreach (int i in list)
+        //    {
+        //        if (!(i % 2 == 1))
+        //            result.Add(i);
+        //    }
+        //    return result;
+        //}
+
+        #endregion
 
 
         static void Main(string[] args)
@@ -169,6 +184,16 @@ namespace Assignment_Collection
 
             #endregion
 
+            #region 6.Given an array list , implement a function to remove all odd numbers from it.
+
+            //ArrayList Arr = new ArrayList() { 1, 2, 3, 4, 5 };
+
+            //ArrayList result = RemoveOddNumbers(Arr);
+
+            //foreach (int i in result) 
+            //    Console.WriteLine(i);
+
+            #endregion
 
 
         }
